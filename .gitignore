@@ -1,0 +1,6 @@
+# Foxglove guard: patient data and session approvals stay out of git
+phi/
+patient-data/
+real-faxes/
+beta-consented/
+.claude/hooks/state/

@@ -1,0 +1,25 @@
+{
+  "_help": "phiPaths: folders holding patient data (approved per subfolder). syntheticPaths: made-up test data, never flagged. nonPhiTables: Kroll tables with no patient info (reads don't ask). ignoreNumbers: known fake or dummy card numbers.",
+  "phiPaths": [
+    "phi/",
+    "patient-data/",
+    "real-faxes/",
+    "beta-consented/"
+  ],
+  "syntheticPaths": [
+    "tests/fixtures/synthetic/"
+  ],
+  "nonPhiTables": [
+    "Drg",
+    "DrgPack",
+    "Sig",
+    "Doc",
+    "PurchaseOrder",
+    "OrderItem"
+  ],
+  "ignoreNumbers": [
+    "1234567890",
+    "7999999993",
+    "6999999995"
+  ]
+}
